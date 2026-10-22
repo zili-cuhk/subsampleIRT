@@ -11,7 +11,7 @@ for Penalized Marginal-Likelihood Estimation with Numerical Integration*).
 
 ```sh
 R CMD build subsampleIRT
-R CMD INSTALL subsampleIRT_0.1.0.tar.gz
+R CMD INSTALL subsampleIRT_0.1.1.tar.gz
 ```
 
 Only base R and the recommended package Matrix are needed.

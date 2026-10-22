@@ -1,7 +1,7 @@
 Package: subsampleIRT
 Type: Package
 Title: Target-Specific Optimal Subsampling for Penalized Item Response Models
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Zili", "Liu", email = "ZLiu20@mdanderson.org", role = c("aut", "cre"))
 Description: Penalized marginal maximum likelihood for multidimensional,
     multi-group mixed two- and three-parameter logistic item response models
