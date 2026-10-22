@@ -1,0 +1,21 @@
+Package: subsampleIRT
+Type: Package
+Title: Target-Specific Optimal Subsampling for Penalized Item Response Models
+Version: 0.1.0
+Authors@R: person("Zili", "Liu", email = "ZLiu20@mdanderson.org", role = c("aut", "cre"))
+Description: Penalized marginal maximum likelihood for multidimensional,
+    multi-group mixed two- and three-parameter logistic item response models
+    with Gauss-Hermite quadrature, and target-specific optimal subsampling for
+    large-scale assessment data. A pilot fit and one pass of person-level
+    scores give sampling probabilities that minimize the subsampling variance
+    of a chosen target (item difficulties, discriminations, guessing
+    parameters, latent correlations, group means or a joint target). The
+    package fits the inverse-probability weighted criterion with a fixed
+    Horvitz-Thompson normalizer, computes conditional sandwich standard
+    errors, chooses the subsample size by a two-stage precision rule and fits
+    penalty paths on one subsample.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: Matrix, stats
+NeedsCompilation: no

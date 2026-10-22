@@ -1,0 +1,4 @@
+^README\.md$
+^\.Rbuildignore$
+^\.gitignore$
+^tools$
